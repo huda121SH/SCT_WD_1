@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="shortcut icon" href="images/icons/logo_cafe.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <span id="logo_span"><img src="images/icons/logo_cafe.png" id="nav_icon">LOCO!</span>
+
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Speciality</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+      <section id="home" class="diff_pages">
+        <h1 class="h1home">Welcome </h1>
+      
+             <div class="car-card">
+                <h3>LOCATION CAFE</h3>
+                <p>A powerful and efficient car designed for the modern driver.</p>
+            </div> 
+        </section>
+
+    <section id="about" class="diff_pages">
+        <h2 class="h2about">About Us</h2>
+        <p>Welcome to LoCation Cafe! </p>
+        
+        <div class="about-content">
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>Our mission is to provide reliable and up-to-date information about cars, helping car enthusiasts and potential buyers make informed decisions.</p>
+            </div>
+            
+            <div class="values">
+                <h3>Our Values</h3>
+                <p>Welcome to LoCation Cafe, where every cup tells a story! Founded in 2020 by Ayat our journey began with a passion for crafting the perfect cup of coffee and creating a warm, inviting space for our community.
+
+                    At LoCation Cafe, we believe in quality over everything. Our beans are ethically sourced from [mention sourcing practices or locations], ensuring that every sip supports sustainable farming practices.
+                    
+                    Our talented team is dedicated to providing not just great coffee, but an experience that feels like home. Whether you’re here to enjoy a quiet moment with a book or catch up with friends, our cozy atmosphere is the perfect backdrop.
+                    
+                    We’re proud to be part of LoCation Cafe and actively participate in local events, supporting fellow businesses and initiatives.
+                    
+                    Join us at LaCation Cafe and discover your new favorite spot! Follow us on LoCation.cafe for updates and special events.</p>
+          
+    </section>
+
+    <section id="services" class="diff_pages">
+        <h2 class="h2services">Our Speciality</h2>
+        <p>Explore the services we offer to help you make your experience worthfull.</p>
+    
+        <div class="services-content">
+            <div class="service-item">
+                <img src="images\cofe.jpeg" alt="Car Reviews">
+                <h3>Coffee</h3>
+                <p>Settle into a cozy spot, grab your favorite coffee mug, and prepare to sip through the world’s most popular coffee drinks:
+                    Espresso ,
+                    Cappuccino ,
+                    Caffe Latte ,
+                    Mocha ,
+                    Americano ,
+                    Frappuccino , and more of your choice.
+            </p>
+
+            </div>
+            
+            <div class="service-item">
+                <img src="images\CRUSO.jpeg" alt="Buying Guide">
+                <h3>Croissant</h3>
+                <p>A perfect cup of coffee along with delicious croissants. You should try our most loved Almond Croissant and Roasted Tomatoes with Mozzarella Cheese. You can even add a side of jam to pair it up with the croissants with flavours ranging from banana jam, orange marmalade, apricot marmalade, and strawberry-raspberry jam.</p>
+            </div>
+            
+            <div class="service-item">
+                <img src="images\waffle.jpeg" alt="Maintenance Tips">
+                <h3>waffle</h3>
+                <p>what’s a better combination to devour than coffee plus waffles? So, go ahead and order up Banana Nutella Waffles, Oreosome, Bery Bery Strawberry, and more.vegetarian friendly as these waffles are absolutely eggless. </p>
+            </div>
+            
+            <div class="service-item">
+                <img src="images\PASTRY.jpeg" alt="Car Marketplace">
+                <h3>Pastry</h3>
+                <p> We are specializing in French products in India. Since its inception, Location cafe has been all about quality and excellence.
+                    Each of our offerings, from our cakes and pastries adhere to the strictest standards of perfection and elegance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="diff_pages">
+        <h2 class="h2contact">Contact Us</h2>
+        <p>Have questions or need more information? Get in touch with us using the form below.</p>
+    
+        <div class="contact-content">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+    
+            <div class="contact-details">
+                <h3>Our Cafe</h3>
+                <p>Navi Mumbai, Kharghar,98765</p>
+                <p><strong>Email:</strong> info@lococafe.com</p>
+                <p><strong>Phone:</strong> +91 8796424567</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
